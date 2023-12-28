@@ -8,7 +8,7 @@ import '../../../mocks/mock_constants.dart';
         sdkMessage.toString());
   });
 
-
+//combination of memory modules
     final sdkMessage = SDKIPCResponse.fromIPCMessage(message);
     expect(Strings.GET_PROFILE, sdkMessage.action);
     expect(false, sdkMessage.success);

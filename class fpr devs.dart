@@ -17,6 +17,8 @@ import '../../../mocks/mock_constants.dart';
     expect('Wallet doesn\'t exists', sdkMessage.error);
     expect()
 
+
+     //   copy to clipboard
 void main() {
   test('string to dec', () {
     expect(1, DecString.doubleFromDecString('100000000000000000'));
